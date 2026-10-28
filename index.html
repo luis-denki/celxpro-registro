@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Registrada - CelXPro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(180deg, #0B0E14 0%, #151921 50%, #0B0E14 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #FFFFFF;
+        }
+
+        .card {
+            background-color: #1A1F29;
+            border: 1px solid rgba(0, 229, 255, 0.2);
+            border-radius: 24px;
+            padding: 40px 30px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+        }
+
+        .icon-container {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 24px auto;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #1A1F29, #00E5FF);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 20px rgba(0, 229, 255, 0.3);
+        }
+
+        .icon-container svg {
+            width: 42px;
+            height: 42px;
+            fill: #FFFFFF;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: #FFFFFF;
+        }
+
+        p {
+            color: #8E9BAE;
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 28px;
+        }
+
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 16px;
+            background-color: #00E5FF;
+            color: #0B0E14;
+            font-weight: 700;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 14px rgba(0, 229, 255, 0.25);
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="icon-container">
+            <!-- Icono de Check / Exito -->
+            <svg viewBox="0 0 24 24">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+        </div>
+        <h1>¡Registro Exitoso!</h1>
+        <p>Tu cuenta en <strong>CelXPro</strong> ha sido creada correctamente. Ya puedes volver a la aplicación e iniciar sesión.</p>
+        <a href="#" class="btn" onclick="window.close();">Listo / Volver a la App</a>
+    </div>
+
+</body>
+</html>
